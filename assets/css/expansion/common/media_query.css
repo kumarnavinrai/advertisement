@@ -1,0 +1,41 @@
+@media only screen and (max-width: 765px) {
+   .site-sidebar {
+	   position:fixed;
+	   height:70px !important;
+	   width:340px !important;
+	   bottom:0px;
+	   background-color:#FFF;
+	   border:#FF0 1px thick;
+	   overflow:hidden;
+	   z-index:4;
+	   border-top:#000 1px dashed;
+	   
+	    -webkit-transition: all 0.6s ease-out;  /* Saf3.2+, Chrome */
+     -moz-transition: all 0.6s ease-out;  /* FF4+ */
+      -ms-transition: all 0.6s ease-out;  /* IE10 */
+       -o-transition: all 0.6s ease-out;  /* Opera 10.5+ */
+          transition: all 0.6s ease-out;
+   }
+   .site-sidebar:hover {
+	   overflow:auto;
+	   height:450px !important;
+	   -webkit-transition: all 0.6s ease-out;  /* Saf3.2+, Chrome */
+     -moz-transition: all 0.6s ease-out;  /* FF4+ */
+      -ms-transition: all 0.6s ease-out;  /* IE10 */
+       -o-transition: all 0.6s ease-out;  /* Opera 10.5+ */
+          transition: all 0.6s ease-out;
+   }
+}
+
+@media only screen and (max-width: 980px) {
+	header.main-header .site-logo h1, header.main-header .site-logo h1 a{
+		font-size:18px;
+	}
+	header.main-header .site-logo .slogan {
+		text-align:center;
+	}
+	
+	header.main-header .h-widget {
+		display:none;
+	}
+}

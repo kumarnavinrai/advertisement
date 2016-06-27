@@ -1,0 +1,24 @@
+.printTableTag{
+	display:none;
+	border: solid 1px black;
+}
+
+.printTableTr{
+	border: solid 1px black;
+}
+
+.printtableTh{
+	border: solid 1px black;
+}
+
+.printTableTd{
+	border: solid 1px black;
+}
+
+.tableWidthForA4{
+	width: 800px !important;
+}
+
+table {
+    width: 800px !important; 
+}

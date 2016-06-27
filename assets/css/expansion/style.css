@@ -1,0 +1,182 @@
+@import url(bootstrap.min.css);
+
+
+/****
+* Modules
+*/
+@import url(modules/comments.css);
+@import url(modules/pages.css);
+@import url(modules/blog.css);
+/**
+* Common page styling
+**/
+@import url(common/imgboxes.css);
+
+@import url(common/style.css);
+
+@import url(common/media_query.css);
+/*-----------------*/
+/**********************************************************************************************/
+/* CSS3 and some style switching below */
+/**********************************************************************************************/
+.menu-fixed, .menu-fixed:hover, .site-theme-red .ui-sidebar-nav > ul li a, .site-theme-red .ui-sidebar-nav > ul li a:hover, .site-theme-yellow .ui-sidebar-nav > ul li a, .site-theme-yellow .ui-sidebar-nav > ul li a:hover {
+	
+ -webkit-transition: all 0.3s ease-out;  /* Saf3.2+, Chrome */
+     -moz-transition: all 0.3s ease-out;  /* FF4+ */
+      -ms-transition: all 0.3s ease-out;  /* IE10 */
+       -o-transition: all 0.3s ease-out;  /* Opera 10.5+ */
+          transition: all 0.3s ease-out;}
+		  
+/* Red switcher*/
+.site-theme-red header.main-header {
+	background-color:#F00;
+}
+.site-theme-red .ui-main-nav {
+	border-bottom: 2px solid #F00;
+}
+ .site-theme-red .ui-main-nav .has-sub ul li a {
+	 background-color:#f94d4d;
+	 color:#FFF;
+ }
+.site-theme-red .ui-main-nav .has-sub ul li:hover a {
+  background: #ff0000;
+}
+
+.site-theme-red .ui-main-nav > ul > li:hover:after {
+  border-bottom: 10px solid #F00;
+}
+
+/* Side menu*/
+.site-theme-red .ui-sidebar-nav > ul li a {
+			/* Background & effects */
+			color: #FFF;
+			background: #fc5050;
+			border:#F00 inset 2px;
+			}
+.site-theme-red .ui-sidebar-nav > ul li a:hover {
+			/* Background & effects */
+			background: #F00;
+			}			
+/*******************/
+/* header red*/
+.site-theme-red header.main-header .site-logo h1, .site-theme-red header.main-header .site-logo h1 a{
+	color:#FFF;
+}
+.site-theme-red header.main-header .site-logo h1 a:hover {
+	color:#CCC;
+}
+.site-theme-red header.main-header .site-logo .slogan {
+	color:#CCC;
+}
+/****************/
+/* Module comments*/
+.site-theme-red .comments-container > h3, .site-theme-red .comment-container header
+, .site-theme-red .footer-nav li.first, .site-theme-red .footer-nav li.first a:hover {		
+background: rgb(255,48,25); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmMzAxOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjZjA0MDQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(255,48,25,1) 0%, rgba(207,4,4,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,48,25,1)), color-stop(100%,rgba(207,4,4,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-8 */
+}
+
+
+/* Footer menu red*/
+.site-theme-red .footer-nav li.first > a {
+	color:#FFF;
+}
+
+.site-theme-red .footer-nav li.first a:hover {
+text-decoration:none;
+}
+/*******************************************************************************/
+/* Yellow switcher*/
+.site-theme-yellow header.main-header {
+	background-color:#FF0;
+}
+.site-theme-yellow .ui-main-nav {
+	border-bottom: 2px solid #FF0;
+}
+ .site-theme-yellow .ui-main-nav .has-sub ul li a {
+	 background: #FF6;
+	 color:#000;
+ }
+.site-theme-yellow .ui-main-nav .has-sub ul li:hover a {
+  background: #FF0;
+}
+
+.site-theme-yellow .ui-main-nav > ul > li:hover:after {
+  border-bottom: 10px solid #FF0;
+}
+
+/* Side menu*/
+.site-theme-yellow .ui-sidebar-nav > ul li a {
+			/* Background & effects */
+			color: #333;
+			background: #fcfc79;
+			border:#ffff00 inset 2px;
+			}
+.site-theme-yellow .ui-sidebar-nav > ul li a:hover {
+			/* Background & effects */
+			background: #ffff00;
+			}			
+/*******************/
+/* header yellow*/
+.site-theme-yellow header.main-header .site-logo h1, .site-theme-yellow header.main-header .site-logo h1 a{
+	color:#333;
+}
+.site-theme-yellow header.main-header .site-logo h1 a:hover {
+	color:#666;
+}
+.site-theme-yellow header.main-header .site-logo .slogan {
+	color:#666;
+}
+/****************/
+/* Module comments*/
+.site-theme-yellow .comments-container > h3,.site-theme-yellow .comment-container header 
+, .site-theme-yellow .footer-nav li.first, .site-theme-yellow .footer-nav li.first a:hover  {		
+background: #fcf192; /* Old browsers */
+background: -moz-linear-gradient(top,  #fcf192 0%, #f1da36 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcf192), color-stop(100%,#f1da36)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #fcf192 0%,#f1da36 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #fcf192 0%,#f1da36 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #fcf192 0%,#f1da36 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #fcf192 0%,#f1da36 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcf192', endColorstr='#f1da36',GradientType=0 ); /* IE6-9 */
+
+color:#000;
+}
+ .site-theme-yellow .comment-container header a {
+	 color:#000;
+ }
+
+
+/* Footer menu yellow*/
+.site-theme-yellow .footer-nav li.first > a {
+	color:#000;
+}
+.site-theme-yellow .footer-nav li.first a:hover {
+	text-decoration:none;
+}
+/* Color switch*/
+
+
+
+
+
+/*************************/
+
+.menu-fixed {
+	position:fixed;
+	top:30px;
+	z-index:5;
+	opacity:0.6;
+}
+.menu-fixed:hover {
+	margin-left:0px;
+	opacity:1;
+}

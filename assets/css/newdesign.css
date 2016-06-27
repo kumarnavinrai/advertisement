@@ -1,0 +1,29 @@
+#sheepItForm_add a span{
+	font-size:18px !important;
+}
+.c_table_cell_to_li .next_c_table_cell_to_li{
+	display:table-cell !important;
+	width:150px;
+	vertical-align: middle !important; 
+}
+.c_table_cell_to_li_next .c_table_cell_to_li_next_next{
+	display:table-cell !important;
+	width:150px !important;
+	/*vertical-align: middle !important; */
+}
+
+
+.c_margin{
+	margin-right: 5px;
+}
+.c_max_400px{
+	width:610px !important;
+
+}
+.c_max_length{
+	width:700px !important;
+
+}
+label {
+    font-weight: Bold !important;
+}
